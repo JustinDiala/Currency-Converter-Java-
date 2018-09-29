@@ -15,6 +15,7 @@ Additional Comments:
     3) better user interface.
     4) more code optimization
     5) different languages.
+- Additional side note, more comments will be added soon in the code and Executable will be added in the code. Apologies for the inconvenience.
 - If you have any suggestions on potential updates feel free to email me 
     Email: jbdiala@yahoo.com
 
