@@ -1,9 +1,7 @@
 package currency_live;
 
-/*import java.util.Scanner;*/
 import javafx.application.Application;
-/*import javafx.event.ActionEvent;
-import javafx.event.EventHandler;*/
+
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -25,8 +23,16 @@ public class Currency_Live extends Application {
 		launch(args);
 		
 	}
-
-	@Override
+	/*
+	 * Description: Creates the basic GUI Environment using javafx. This places the basic objects on the GUI stage, once the objects are placed the GUI is shown
+	 * to the user.
+	 *
+	 * Parameters:
+	 * 		Stage pimaryStage: Contains the basic GUI container or stage
+	 * 
+	 * Returns:
+	 * 		None
+	 */
 	public void start(Stage primaryStage) throws Exception {
 		
 		StackPane layout = new StackPane();
@@ -38,7 +44,6 @@ public class Currency_Live extends Application {
 		Button b_enter = new Button();
 		TextField amount1 = new TextField();
 		Label arrow = new Label("->");
-/*		TextField amount2 = new TextField();*/
 		ChoiceBox<String> currencies1 = new ChoiceBox<>();
 		ChoiceBox<String> currencies2 = new ChoiceBox<>();
 		Converter obj1 = new Converter();
@@ -49,8 +54,6 @@ public class Currency_Live extends Application {
 		scraped = obj1.Scraper();
 		names = (String[]) scraped[0];
 		
-//		amount1.setPrefWidth(10);
-		
 		b_enter.setText("Enter");
 		
 		//Positions textfield and choicebox on scene
@@ -59,7 +62,6 @@ public class Currency_Live extends Application {
 		currencies1.setTranslateY(-30);
 		currencies2.setTranslateX(50);
 		currencies2.setTranslateY(-30);
-		/*currencies2.setTranslateY(-30);*/
 		amount1.setTranslateX(-40);
 		amount1.setTranslateY(10);
 		b_enter.setTranslateX(50);
@@ -105,10 +107,7 @@ public class Currency_Live extends Application {
 		if (results[0] != null || results[1] != null) {
 			caller = true;
 		}
-		
-		/*System.out.println(results[0]);*/
-		
-		
+				
 		
 	}
 	
