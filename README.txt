@@ -16,6 +16,8 @@ Additional Comments:
     4) more code optimization
     5) different languages.
 - Additional side note, more comments will be added soon in the code and Executable will be added in the code. Apologies for the inconvenience.
+	- Also it is assumed when running the code that the user will have the following Libraries:
+		- Jsoup download here: https://jsoup.org/download.
 - If you have any suggestions on potential updates feel free to email me 
     Email: jbdiala@yahoo.com
 
